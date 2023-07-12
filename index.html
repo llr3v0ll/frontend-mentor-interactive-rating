@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <div id="rating-page">
+        <img src="images/icon-star.svg" alt="star" class="star-img" />
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="stars">
+          <label class="custom-radio-button">
+            <input type="radio" name="rate" value="1" />
+            <span class="checkmark"></span>
+            <p class="number">1</p>
+          </label>
+          <label class="custom-radio-button">
+            <input type="radio" name="rate" value="2" />
+            <span class="checkmark"></span>
+            <p class="number">2</p>
+          </label>
+          <label class="custom-radio-button">
+            <input type="radio" name="rate" value="3" />
+            <span class="checkmark"></span>
+            <p class="number">3</p>
+          </label>
+          <label class="custom-radio-button">
+            <input type="radio" name="rate" value="4" />
+            <span class="checkmark"></span>
+            <p class="number">4</p>
+          </label>
+          <label class="custom-radio-button">
+            <input type="radio" name="rate" value="5" />
+            <span class="checkmark"></span>
+            <p class="number">5</p>
+          </label>
+        </div>
+
+        <button id="submit-button">SUBMIT</button>
+        <p class="error" id="errormes"></p>
+      </div>
+      <div id="thank-you-page">
+        <img
+          src="images/illustration-thank-you.svg"
+          alt="thank-you-image"
+          class="thank-you-img"
+        />
+        <p class="rate-response" id="rate-res"></p>
+        <h1>Thank you!</h1>
+        <p class="message">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
