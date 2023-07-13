@@ -121,6 +121,11 @@ button:hover {
   margin: 10px 0 0 5rem;
   color: red;
 }
+@media (max-width: 500px) {
+  main {
+    scale: 0.8;
+  }
+}
 /* 
 - White: hsl(0, 0%, 100%)
 - Light Grey: hsl(217, 12%, 63%)
