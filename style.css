@@ -53,10 +53,10 @@ p {
   border-radius: 50%;
   cursor: pointer;
   position: relative;
-  color: white;
 }
 .custom-radio-button:hover {
   background-color: hsl(216, 12%, 54%);
+  color: white;
 }
 .custom-radio-button input {
   display: none;
